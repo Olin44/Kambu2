@@ -44,7 +44,7 @@ curl -X GET "http://localhost:8080/currencies/"
 
 **Polecenie 3:**
 - curl -X GET "http://localhost:8080/currencies/list?currencies=EUR"
-- curl -X GET "http://localhost:8080/currencies/list?- --currencies=INR&currencies=EUR"
+- curl -X GET "http://localhost:8080/currencies/list?currencies=INR&currencies=EUR"
 - curl -X GET "http://localhost:8080/currencies/list?currencies=INR&currencies=EUR&currencies=MXN"
 
 
