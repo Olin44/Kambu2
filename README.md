@@ -37,13 +37,14 @@ parametry currencies będące skrótami nazw walut, metoda przyjmuje dowolną li
 curl -X GET "http://localhost:8080/currencies/"
 
 **Polecenie 2:**
-curl -X GET "http://localhost:8080/currencies/convert?from=HUF&to=HKD&value=100"
-curl -X GET "http://localhost:8080/currencies/convert?from=HUF&to=THB&value=600"
-curl -X GET "http://localhost:8080/currencies/convert?from=CNY&to=HKD&value=100"
-curl -X GET "http://localhost:8080/currencies/convert?from=INR&to=EUR&value=800"
+- curl -X GET "http://localhost:8080/currencies/convert?- from=HUF&to=HKD&value=100"
+- curl -X GET "http://localhost:8080/currencies/convert?from=HUF&to=THB&value=600"
+- curl -X GET "http://localhost:8080/currencies/convert?from=CNY&to=HKD&value=100"
+- curl -X GET "http://localhost:8080/currencies/convert?from=INR&to=EUR&value=800"
 
 **Polecenie 3:**
-curl -X GET "http://localhost:8080/currencies/list?currencies=EUR"
-curl -X GET "http://localhost:8080/currencies/list?currencies=INR&currencies=EUR"
-curl -X GET "http://localhost:8080/currencies/list?currencies=INR&currencies=EUR&currencies=MXN"
+- curl -X GET "http://localhost:8080/currencies/list?currencies=EUR"
+- curl -X GET "http://localhost:8080/currencies/list?- --currencies=INR&currencies=EUR"
+- curl -X GET "http://localhost:8080/currencies/list?currencies=INR&currencies=EUR&currencies=MXN"
+
 
