@@ -1,11 +1,9 @@
-# Welcome to Kambu_Project!
-
 Aplikacja służąca do przeliczania kursów walut z użyciem API NBP.
 
 
 # Użyte technologie
 
--  Java SE Development Kit 11
+- Java SE Development Kit 11
 - Spring Framework
 - Spring Boot
 - Baza danych Mongo DB
